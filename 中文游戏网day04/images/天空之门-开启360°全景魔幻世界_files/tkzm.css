@@ -1,0 +1,97 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #000;
+    line-height: 24px;
+    font: 14px Helvetica Neue, Helvetica, PingFang SC, \5FAE\8F6F\96C5\9ED1, Tahoma, Arial, sans-serif;
+}
+
+.wrap {
+    height: 4643px;
+    width: 100%;
+    min-width: 1200px;
+}
+
+/* 第一屏 */
+.wrap1 {
+    width: 100%;
+    height: 857px;
+    background: url(./images/index-video-bg.jpg) no-repeat center top;
+}
+
+.wrap1 #bg-video {
+    position: relative;
+    width: 100%px;
+    height: 860px;
+    overflow: hidden;
+}
+
+.wrap1 #bg-video .video-cover {
+    background: url(./images/bg_movie_dot.png) repeat;
+    position: absolute;
+    z-index: 900;
+    width: 1920px;
+    left: 50%;
+    margin-left: -960px;
+    height: 900px;
+}
+
+#bg-video video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 1920px;
+    transform: translate(-50%, -50%);
+    z-index: 899;
+}
+
+.main {
+    width: 1200px;
+    margin: 0 auto;
+    height: 100%;
+    height: auto;
+}
+
+.index-logo {
+    position: absolute;
+    width: 224px;
+    height: 91px;
+    top: 50px;
+    z-index: 901;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+    outline: none;
+}
+
+.round-video {
+    width: 113px;
+    height: 113px;
+    position: absolute;
+    cursor: pointer;
+    left: 50%;
+    margin-left: -56.5px;
+    top: 675px;
+    z-index: 902;
+    opacity: .6;
+}
+
+.round-video-k {
+    width: 113px;
+    height: 113px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 902;
+    background-position: -564px -283px;
+    animation: rotating 9.2s linear infinite;
+}
+
+.sprite {
+    background: url(/images/sprite.png) no-repeat;
+}
