@@ -19,6 +19,15 @@ i {
     font-style: normal;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 400;
+}
+
 .wrap {
     height: 4643px;
     width: 100%;
@@ -422,4 +431,154 @@ img {
     overflow: hidden;
     display: inline-block;
     line-height: 28px;
+}
+
+
+/* 第三屏 */
+.wrap3 {
+    height: 900px;
+    width: 100%;
+    margin-top: 693px;
+}
+
+.wrap3 .zhiye-qie {
+    height: 900px;
+    overflow: hidden;
+    position: relative;
+}
+
+.zhiye01 {
+    background: url(../tkzm/zhiye01-video-bg.jpg) no-repeat center top;
+    width: 100%;
+    height: 900px;
+}
+
+.zhiye-qie .video-cover {
+    background: url(../tkzm/bg_movie_dot.png) repeat;
+    position: absolute;
+    z-index: 900;
+    width: 1920px;
+    left: 50%;
+    margin-left: -960px;
+    height: 900px;
+}
+
+.zhiye-qie .zhiye01-video,
+.zhiye-qie .zhiye02-video,
+.zhiye-qie .zhiye03-video,
+.zhiye-qie .zhiye04-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 1920px;
+    transform: translate(-50%, -50%);
+    z-index: 899;
+    display: none;
+}
+
+.zhiye-con {
+    width: 1200px;
+    margin: 0 auto;
+    height: 100%;
+    height: auto;
+    position: relative;
+}
+
+.zhiye-con .zhiye01-con,
+.zhiye-con .zhiye02-con,
+.zhiye-con .zhiye03-con,
+.zhiye-con .zhiye04-con {
+    position: absolute;
+    width: 380px;
+    height: 216px;
+    z-index: 901;
+    color: #fff;
+    top: 220px;
+    left: 80px;
+    display: none;
+}
+
+.zhiye01-tit {
+    background: url(../tkzm/zhiye-tit-01.png) no-repeat center top;
+}
+
+.zhiye01-tit,
+.zhiye02-tit,
+.zhiye03-tit,
+.zhiye04-tit {
+    width: 496px;
+    height: 78px;
+    position: absolute;
+    z-index: 901;
+    top: 155px;
+    cursor: pointer;
+}
+
+.add-h-10 {
+    height: 10px;
+}
+
+.zhiye01-con p,
+.zhiye02-con p,
+.zhiye03-con p,
+.zhiye04-con p {
+    font-size: 15px;
+}
+
+.skill {
+    width: 380px;
+    height: 650px;
+}
+
+.zhiye01-skill-other,
+.zhiye02-skill-other,
+.zhiye03-skill-other,
+.zhiye04-skill-other {
+    display: none;
+}
+
+
+.zhiye01-skill-top,
+.zhiye01-skill-other {
+    display: block;
+    cursor: pointer;
+}
+
+.skill h3 {
+    width: 380px;
+    height: 30px;
+    text-align: left;
+    clear: both;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.skill-s {
+    float: left;
+    width: 60px;
+    height: 90px;
+    margin-right: 15px;
+}
+
+.skill-s p {
+    text-align: center;
+}
+
+
+
+
+.zhiye02-tit {
+    background: url(../tkzm/zhiye-tit-02.png) no-repeat center top;
+    top: 460px;
+}
+
+.zhiye03-tit {
+    background: url(../tkzm/zhiye-tit-03.png) no-repeat center top;
+    top: 560px;
+}
+
+.zhiye04-tit {
+    background: url(../tkzm/zhiye-tit-04.png) no-repeat center top;
+    top: 660px;
 }
