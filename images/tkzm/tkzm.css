@@ -438,7 +438,7 @@ img {
 .wrap3 {
     height: 900px;
     width: 100%;
-    margin-top: 693px;
+    /* margin-top: 693px; */
 }
 
 .wrap3 .zhiye-qie {
@@ -480,7 +480,7 @@ img {
     width: 1200px;
     margin: 0 auto;
     height: 100%;
-    height: auto;
+    /* height: auto; */
     position: relative;
 }
 
@@ -581,4 +581,270 @@ img {
 .zhiye04-tit {
     background: url(../tkzm/zhiye-tit-04.png) no-repeat center top;
     top: 660px;
+}
+
+/* 第四屏 */
+.page4 {
+    height: 846px;
+    position: relative;
+    overflow: hidden;
+    background: url(../tkzm/wrap-ue4.jpg) no-repeat center top;
+}
+
+.main {
+    width: 1200px;
+    margin: 0 auto;
+    height: 100%;
+    height: auto;
+}
+
+.add-h-30 {
+    height: 30px;
+}
+
+.title-box-ue4 {
+    background: url(../tkzm/tit-ue4.png) no-repeat center top;
+    width: 960px;
+    height: 90px;
+    margin: 0 auto;
+}
+
+.page4-box {
+    width: 1114px;
+    margin: 50px auto 0;
+    position: relative;
+    overflow: hidden;
+    transition: all 1s .2s;
+    -webkit-transition: all 1s .2s;
+}
+
+.video-box {
+    width: 1122px;
+}
+
+.btn-video-box {
+    width: 666px;
+    height: 394px;
+    display: block;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    border: 1px solid #555462;
+}
+
+.btn-video-box img {
+    display: block;
+    width: 100%;
+    min-height: 100%;
+    transition: all .5s;
+    -webkit-transition: all .5s;
+}
+
+.video-text-box {
+    display: block;
+    width: 436px;
+    height: 396px;
+    float: left;
+    background: url(../tkzm/bg-video2.png) no-repeat;
+    position: relative;
+    overflow: hidden;
+    margin-left: 10px;
+}
+
+.news-light {
+    display: block;
+    width: 100%;
+    height: 10px;
+    position: absolute;
+    top: -6px;
+    left: 2px;
+    background: url(../tkzm/light.png) -119px -1px no-repeat;
+    z-index: 2;
+    transition: all 2s;
+    -webkit-transition: all 2s;
+}
+
+.news-light4 {
+    width: 12px;
+    height: 100%;
+    left: -7px;
+    top: 0px;
+    background-image: url(../tkzm/light2.png);
+    background-position: 1px -76px;
+}
+
+.video-title {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 23px;
+    text-align: left;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    height: 30px;
+    line-height: 30px;
+}
+
+.page4-box .line {
+    width: 90%;
+    margin: 10px auto;
+}
+
+video-hint {
+    color: #fff;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    line-height: 24px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.video-text-box .video-cover-span {
+    width: 435px;
+    height: 241px;
+    position: relative;
+    bottom: -29px;
+    right: -1px;
+    overflow: hidden;
+    display: block;
+}
+
+.play-box {
+    width: 100%;
+    height: 100%;
+}
+
+.video-text-box img.video-cover-img {
+    display: block;
+}
+
+.video-text-box img {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 435px;
+    height: 241px;
+    display: block;
+    display: block;
+    width: 100%;
+    min-height: 100%;
+    transition: all .5s;
+    -webkit-transition: all .5s;
+}
+
+.btn-video-box em,
+.btn-video-box i {
+    display: block;
+    width: 57px;
+    height: 57px;
+    background: url(../tkzm/ico-video.png) no-repeat;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -28.5px;
+    margin-left: -28.5px;
+    z-index: 3;
+}
+
+.btn-video-box i {
+    background-position: -56px 0;
+}
+
+.video-box {
+    width: 1122px;
+}
+
+.video2-1 {
+    float: left;
+    width: 552px;
+    height: 212px;
+    background: url(../tkzm/bg-video3.png) no-repeat;
+    overflow: hidden;
+    position: relative;
+    margin-top: 11px;
+}
+
+.video2-1 .news-light1 {
+    background-position: 390px -1px;
+}
+
+.video2-1 .news-light1,
+.video2-1 .news-light3 {
+    background-image: url(../tkzm/video-light.png);
+    background-position: 390px 0px;
+    width: 100%;
+    left: 0;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+}
+
+.news-light1 {
+    top: auto;
+    bottom: -3px;
+    left: auto;
+    right: 0;
+    background-position: 207px -1px;
+}
+
+.video2-1 .video-left-box {
+    display: block;
+    width: 376px;
+    height: 212px;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    z-index: 3;
+}
+
+.video2-1 img {
+    display: block;
+    width: 100%;
+    min-height: 100%;
+    float: left;
+}
+
+.video-right-box {
+    display: block;
+    width: 175px;
+    float: right;
+}
+
+.video-title {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 23px;
+    text-align: left;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    height: 30px;
+    line-height: 30px;
+}
+
+.page4-box .line {
+    width: 90%;
+    margin: 10px auto;
+}
+
+.video-right-box .video-hint {
+    -webkit-line-clamp: 6;
+}
+
+.video-hint {
+    color: #fff;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    line-height: 24px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.video2-2 {
+    margin-left: 10px;
 }
