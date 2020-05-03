@@ -848,3 +848,282 @@ video-hint {
 .video2-2 {
     margin-left: 10px;
 }
+
+
+/* 第五屏 */
+.wrap5 {
+    height: 957px;
+    background: url(../tkzm/wrap-pic.jpg) no-repeat center top;
+}
+
+.main {
+    width: 1200px;
+    margin: 0 auto;
+    height: 100%;
+    height: auto;
+}
+
+.add-h-30 {
+    height: 30px;
+}
+
+#stzx-nav {
+    width: 730px;
+    height: 34px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+.title-box-pic {
+    background: url(../tkzm/tit-pic.png) no-repeat center top;
+    width: 960px;
+    height: 90px;
+    margin: 0 auto;
+}
+
+.stzx-con {
+    margin-top: 100px;
+}
+
+.stzx-con {
+    margin-top: 100px;
+}
+
+#stzx-nav {
+    width: 730px;
+    height: 34px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+#stzx-nav li.tabFocus {
+    border: 1px solid #fff;
+    box-sizing: border-box;
+    box-shadow: 3px 2px 5px #000;
+}
+
+#stzx-nav li {
+    width: 175px;
+    height: 34px;
+    background-color: #701010;
+    text-align: center;
+    color: #fff;
+    line-height: 34px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-right: 100px;
+    float: left;
+}
+
+#stzx-nav li:nth-last-child(1) {
+    margin-right: 0px;
+}
+
+.stzx-con-k .st-big {
+    width: 659px;
+    height: 394px;
+    margin-right: 5px;
+    border: 2px solid rgba(101, 101, 101, 0.6);
+    overflow: hidden;
+    float: left;
+    cursor: pointer;
+}
+
+.st-big-video,
+.st-s-video {
+    /* position: relative; */
+    cursor: pointer;
+}
+
+.st-big img,
+.st-s img {
+    transition: all .5s;
+    -webkit-transition: all .5s;
+}
+
+.st-big-video em,
+.st-big-video i,
+.st-s-video em,
+.st-s-video i {
+    display: block;
+    width: 57px;
+    height: 57px;
+    background: url(../tkzm/ico-video.png) no-repeat;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -28.5px;
+    margin-left: -28.5px;
+    z-index: 3;
+}
+
+
+.st-big-video i,
+.st-s-video i {
+    background-position: -56px 0;
+}
+
+.st-big-video em,
+.st-big-video i,
+.st-s-video em,
+.st-s-video i {
+    display: block;
+    width: 57px;
+    height: 57px;
+    background: url(../tkzm/ico-video.png) no-repeat;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -28.5px;
+    margin-left: -28.5px;
+    z-index: 3;
+}
+
+.stzx-con-k .st-s {
+    width: 254px;
+    height: 192px;
+    border: 2px solid rgba(101, 101, 101, 0.6);
+    margin: 0px 5px 5px 0px;
+    overflow: hidden;
+    float: left;
+    cursor: pointer;
+}
+
+.stzx-con-k .st-big {
+    width: 659px;
+    height: 394px;
+    margin-right: 5px;
+    border: 2px solid rgba(101, 101, 101, 0.6);
+    overflow: hidden;
+    float: left;
+    cursor: pointer;
+}
+
+.st-big:hover,
+.st-s:hover {
+    border-color: rgba(45, 44, 44, 0.8);
+}
+
+/* 第六屏 */
+.wrap6 {
+    height: 388px;
+    background: url(../tkzm/wrap-bot.jpg) no-repeat center top;
+}
+
+.main {
+    width: 1200px;
+    margin: 0 auto;
+    height: 100%;
+    height: auto;
+}
+
+.add-h-10 {
+    height: 10px;
+}
+
+.shequ-tit {
+    width: 100px;
+    margin: 0 auto;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 25px;
+    color: #000;
+}
+
+.blod {
+    font-weight: bold;
+}
+
+.p-bottom-k {
+    width: 1000px;
+    height: 250px;
+    margin-top: 120px;
+    margin-left: 120px;
+}
+
+.p-bottom-k li {
+    float: left;
+    width: 150px;
+    color: #d5bf86;
+    margin-right: 50px;
+    text-align: center;
+}
+
+.p-bottom-k li a,
+.p-bottom-k li a:hover {
+    color: #d5bf86;
+}
+
+.p-bottom-k li img {
+    margin: 30px 20px 10px 20px;
+    width: 89px;
+    height: 89px;
+}
+
+.layui-btn,
+.layui-edge,
+.layui-inline,
+img {
+    vertical-align: middle;
+}
+
+.layui-inline,
+img {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.p-bottom-k li:nth-last-child(1) {
+    margin-right: 0px;
+}
+
+/* footer */
+#footer {
+    background: #000;
+    width: 100%;
+    min-width: 1200px;
+    height: 100px;
+    font-size: .75em;
+    padding: 30px 0 10px 0;
+}
+
+.clearfloat {
+    zoom: 1;
+}
+
+.clearfloat {
+    clear: both;
+    height: 0;
+    font-size: 0;
+    line-height: 0;
+}
+
+.foot-nei {
+    width: 900px;
+    margin: 0 auto;
+    height: 100px;
+}
+
+.fl {
+    float: left;
+}
+
+.b-logo img {
+    width: 200px;
+    height: 64px;
+}
+
+.foot-info {
+    width: 680px;
+    color: #5d5d5d;
+    margin-left: 15px;
+    line-height: 26px;
+    text-align: left;
+}
+
+.foot-info p a,
+.foot-info a {
+    color: #5d5d5d;
+    display: inline-block;
+}
