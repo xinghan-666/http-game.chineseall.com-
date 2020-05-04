@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+img {
+    border: none;
+}
+
+body {
+    background-color: #000;
+}
+
+.wrap {
+    height: 4643px;
+}
+
+.wrap-news {
+    background: url(../images/guird-bg.jpg) no-repeat center top;
+    width: 100%;
+    min-width: 1200px;
+    height: 100%;
+    height: auto;
+    position: relative;
+}
+
+.wrap-news .main {
+    width: 1100px;
+    margin: 0 auto;
+    height: 100%;
+    height: auto;
+    min-height: 1300px;
+}
+
+.wrap-news .main .news-slogan {
+    position: absolute;
+    width: 626px;
+    height: 251px;
+    top: 330px;
+}
+
+.wrap-news .main .news-list-k {
+    margin-top: 500px;
+}
+
+.news-list-k .news-k {
+    border: 1px solid #313131;
+    width: 1100px;
+    margin: 0 auto;
+    box-shadow: 3px 1px 5px #000;
+    background-color: #f8f6f1;
+    height: 100%;
+    height: auto;
+    margin-bottom: 100px;
+}
+
+.fl {
+    float: left;
+}
+
+.news-k .news-tit-k {
+    height: 45px;
+    background-color: #313131;
+    color: #fff;
+    font-size: 20px;
+    line-height: 45px;
+}
+
+.news-tit-k h3 {
+    float: right;
+    font-weight: normal;
+    margin-right: 15px;
+    font-size: 20px;
+}
+
+.news-tit-k h3 a,
+.news-tit-k h3 a:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+.news-cont-list {
+    width: 1000px;
+    margin: 0 auto;
+    height: 100%;
+    height: auto;
+    min-height: 950px;
+}
+
+.news-cont-tit {
+    margin-top: 30px;
+}
+
+.news-cont-tit h2,
+.news-cont-tit h3 {
+    color: #242424;
+    font-weight: normal;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.news-cont-tit h3 {
+    font-size: 14px;
+    color: #626262;
+    background: url(../images/time-icon.png) no-repeat left top;
+    padding-left: 20px;
+}
+
+.news-cont-cont p {
+    /* color: #989898; */
+    line-height: 30px;
+    font-size: 16px;
+    text-indent: 2em;
+}
+
+.news-cont-cont p img {
+    margin: 20px 0;
+    max-width: 800px;
+    overflow: hidden;
+}
+
+.news-cont-cont p:last-child {
+    margin-bottom: 100px;
+}
+
+/* footer */
+#footer {
+    background: #000;
+    width: 100%;
+    min-width: 1200px;
+    height: 100px;
+    font-size: .75em;
+    padding: 30px 0 10px 0;
+}
+
+.clearfloat {
+    zoom: 1;
+}
+
+.clearfloat {
+    clear: both;
+    height: 0;
+    font-size: 0;
+    line-height: 0;
+}
+
+.b-logo img {
+    width: 200px;
+    height: 64px;
+}
+
+.foot-nei {
+    width: 900px;
+    margin: 0 auto;
+    height: 100px;
+}
+
+.foot-info {
+    width: 680px;
+    color: #5d5d5d;
+    margin-left: 15px;
+    line-height: 26px;
+    text-align: left;
+}
+
+.foot-info p a,
+.foot-info a {
+    color: #5d5d5d;
+    display: inline-block;
+}
+
+.layui-btn,
+.layui-edge,
+.layui-inline,
+img {
+    vertical-align: middle;
+}
+
